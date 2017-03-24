@@ -1,0 +1,73 @@
+.modal-box {
+
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 37.5%;
+    top: 20%;
+    width: 100%; /* Full width */
+    height: auto; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: #ffffff; /* Black w/ opacity */
+    min-width: 300px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 10px;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+.modal-header{
+  width: 100%;
+  padding: 10px;
+  background: #ccc;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.note-title{
+  height: 50px !important;
+  font-size: 25px !important;
+  border-bottom: none !important;
+  font-weight: bold;
+}
+
+.note-title:focus, .note-title:active{
+  border-bottom: none !important;
+}
+.note-card{
+  border: 1px solid #e0e0e0;
+}
+.note-card .card-action{
+  border-top: none !important;
+}
+.note-actions{
+  opacity: 0;
+}
+.note-card:hover .note-actions{
+  opacity: 1;
+  transition: 1s;
+}
+.cfx{
+
+}
+.cfx: after{
+  content: "";
+  display: block;
+  clear: both;
+}
